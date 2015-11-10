@@ -92,16 +92,17 @@ begin
                 end;
             else
             begin
+                Randomize;
                 computer := Random(3) + 1;
                 number := number - computer;
+            end;
             end;
         end
         else
         begin
-        
-        computer := Random(3) + 1;
-        number := number - computer;
-        
+            Randomize;
+            computer := Random(3) + 1;
+            number := number - computer;
         end;
         
         writeln('Computer removed: ', computer);
