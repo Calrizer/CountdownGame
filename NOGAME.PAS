@@ -42,9 +42,15 @@ begin
      
      writeln('Your starting number: ', number);
      writeln;
-     writeln('Press any key for next move...');
+     writeln('Game start in 3');
      writeln;
-     readln;
+     Delay(1000);
+     writeln('2');
+     writeln;
+     Delay(1000);
+     writeln('1');
+     writeln;
+     Delay(1000);
      
      repeat
         clrscr;
