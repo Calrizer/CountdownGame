@@ -48,7 +48,7 @@ begin
      write(' 2, ');
      writeln;
      Delay(1000);
-     writeln(' 1 ');
+     write(' 1 ');
      writeln;
      Delay(1000);
      
@@ -73,13 +73,10 @@ begin
         writeln('Current value: ', number);
         writeln;
         writeln('Computers move in 3,');
-        writeln;
         Delay(1000);
         write(' 2, ');
-        writeln;
         Delay(1000);
-        writeln(' 1 ');
-        writeln;
+        write(' 1 ');
         Delay(1000);
         
         clrscr;
@@ -127,9 +124,13 @@ begin
         writeln;
         writeln('Current value: ', number);
         writeln;
-        writeln('Press any key for next move...');
-        writeln;
-        readln;
+        writeln('Your move in 3,');
+        Delay(1000);
+        write(' 2, ');
+        Delay(1000);
+        write(' 1 ');
+        Delay(1000);
+
     until (number <= 0);
     
     if playerLost = true then
