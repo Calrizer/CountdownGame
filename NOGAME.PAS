@@ -42,8 +42,7 @@ begin
      
      writeln('Your starting number: ', number);
      writeln;
-     writeln('Game start in 3,');
-     writeln;
+     write('Game start in 3,');
      Delay(1000);
      write(' 2, ');
      writeln;
@@ -72,7 +71,7 @@ begin
         writeln;
         writeln('Current value: ', number);
         writeln;
-        writeln('Computers move in 3,');
+        write('Computers move in 3,');
         Delay(1000);
         write(' 2, ');
         Delay(1000);
@@ -124,7 +123,7 @@ begin
         writeln;
         writeln('Current value: ', number);
         writeln;
-        writeln('Your move in 3,');
+        write('Your move in 3,');
         Delay(1000);
         write(' 2, ');
         Delay(1000);
