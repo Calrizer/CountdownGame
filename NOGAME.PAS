@@ -90,18 +90,17 @@ begin
                     number := number - 1;
                     computer := 1;
                 end;
+            else
+            begin
+                computer := Random(3) + 1;
+                number := number - computer;
             end;
         end
         else
         begin
         
-        repeat
-        
-            computer := Random(3) + 1;
-        
-            number := number - computer;
-        
-        until computer <> 0;
+        computer := Random(3) + 1;
+        number := number - computer;
         
         end;
         
