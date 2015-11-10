@@ -71,11 +71,36 @@ begin
         
         clrscr;
         
+        if hardMode =  true then
+        begin
+            case number of
+                4: 
+                begin
+                    number := number - 3;
+                    computer := 3;
+                end;
+                3:
+                begin
+                    number := number - 2;
+                    computer :=  2;
+                end;
+                2:
+                begin
+                    number := number - 1;
+                    computer := 1;
+                end;
+            end;
+        end
+        else
+        begin
+        
         Randomize;
         
         computer := Random(3) + 1;
         
         number := number - computer;
+        
+        end;
         
         writeln('Computer removed: ', computer);
         writeln;
