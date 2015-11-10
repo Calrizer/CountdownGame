@@ -48,6 +48,7 @@ begin
      
      repeat
         clrscr;
+        Randomize;
         writeln('Enter a number between 1 and 3 to take off the number...');
         writeln;
         readln(playerChoice);
@@ -93,8 +94,6 @@ begin
         end
         else
         begin
-        
-        Randomize;
         
         computer := Random(3) + 1;
         
