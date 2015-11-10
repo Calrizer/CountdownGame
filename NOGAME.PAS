@@ -105,6 +105,12 @@ begin
             number := number - computer;
         end;
         
+        if number <= 0 then
+        begin
+            playerLost := false;
+            break;
+        end;
+        
         writeln('Computer removed: ', computer);
         writeln;
         writeln('Current value: ', number);
