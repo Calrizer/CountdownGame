@@ -45,9 +45,8 @@ begin
      write('Game start in 3,');
      Delay(1000);
      write(' 2, ');
-     writeln;
      Delay(1000);
-     write(' 1 ');
+     write('1');
      writeln;
      Delay(1000);
      
@@ -75,7 +74,7 @@ begin
         Delay(1000);
         write(' 2, ');
         Delay(1000);
-        write(' 1 ');
+        write('1');
         Delay(1000);
         
         clrscr;
@@ -127,7 +126,7 @@ begin
         Delay(1000);
         write(' 2, ');
         Delay(1000);
-        write(' 1 ');
+        write('1');
         Delay(1000);
 
     until (number <= 0);
