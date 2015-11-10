@@ -95,9 +95,13 @@ begin
         else
         begin
         
-        computer := Random(3) + 1;
+        repeat
         
-        number := number - computer;
+            computer := Random(3) + 1;
+        
+            number := number - computer;
+        
+        until computer <> 0;
         
         end;
         
